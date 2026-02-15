@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Technical Support / 技术支持</title>
+  <style>
+  :root {
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+    color: #2b2b2b;
+    background: #f7f4ee;
+  }
+  header {
+    background: linear-gradient(135deg, #fff4d6, #f7efe3);
+    padding: 32px 20px 24px;
+    border-bottom: 1px solid #eadfcd;
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: 26px;
+    color: #6a5538;
+  }
+  header p {
+    margin: 0;
+    color: #7a6a55;
+  }
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+  section {
+    background: #ffffff;
+    border: 1px solid #efe5d6;
+    border-radius: 14px;
+    padding: 20px;
+    margin: 18px 0;
+    box-shadow: 0 10px 24px rgba(0,0,0,0.04);
+  }
+  section h2 {
+    margin: 0 0 12px;
+    font-size: 18px;
+    color: #6a5538;
+  }
+  section p, section li {
+    line-height: 1.6;
+    color: #3a3a3a;
+  }
+  ul { padding-left: 18px; }
+  .lang {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9a8b77;
+  }
+  .badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #f5ead7;
+    color: #6a5538;
+    font-size: 12px;
+  }
+  footer {
+    margin-top: 20px;
+    color: #8a7a65;
+    font-size: 13px;
+  }
+  a { color: #7b5c2e; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Technical Support / 技术支持</h1>
+    <p>微光计划 · Lumi</p>
+  </header>
+  <main>
+    
+<section>
+  <div class="lang">English</div>
+  <h2>Technical Support (${appNameEn})</h2>
+  <p class="badge">Last updated: ${lastUpdated}</p>
+  <p>If you experience account, feature, or sync issues, contact us below.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <ul>
+    <li>Support email: ${supportEmail}</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Common Issues</h2>
+  <ul>
+    <li>Cannot sign in: ensure Sign in with Apple is enabled and check your network connection.</li>
+    <li>Data not syncing: ensure you are logged into the same Apple account and online.</li>
+    <li>Want to reset data: use “Delete Account & Data” in the app Settings.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="lang">中文</div>
+  <h2>技术支持（${appNameZh} / ${appNameEn}）</h2>
+  <p class="badge">最后更新：${lastUpdated}</p>
+  <p>如果你遇到账号、功能或同步问题，请通过以下方式联系支持。</p>
+</section>
+
+<section>
+  <h2>联系我们</h2>
+  <ul>
+    <li>支持邮箱：${supportEmail}</li>
+  </ul>
+</section>
+
+<section>
+  <h2>常见问题</h2>
+  <ul>
+    <li>无法登录：请确认系统已开启 Apple 登录，并检查网络连接。</li>
+    <li>数据未同步：请确保已登录同一 Apple 账号并联网。</li>
+    <li>想重置数据：可在应用内“设置”中选择“删除账号与数据”。</li>
+  </ul>
+</section>
+
+    <footer>© 2026 Lumi</footer>
+  </main>
+</body>
+</html>
